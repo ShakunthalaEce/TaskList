@@ -1,0 +1,90 @@
+
+.container {
+    margin: 20px;
+    padding: 30px;
+    border: 2px solid black; 
+    border-radius: 1rem; 
+    background-color: #EFF0F3;
+}
+
+
+#input {
+    width: auto;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px; 
+    font-size: 16px; 
+}
+
+
+#input:focus {
+    border-color: black ; 
+    outline: none; 
+}
+
+
+h1 {
+    text-align: center; 
+}
+
+
+.addbar {
+    padding: 10px;
+    margin: 10px;
+    width: 60%;
+    background-color: beige; 
+}
+
+
+.addButton {
+    background-color: black;
+    color: white;
+    border: none; 
+    padding: 8px;
+    border-radius: 3px;
+    cursor: pointer; 
+    margin:10px; 
+}
+
+
+.addButton:hover {
+    background-color: rgb(57, 58, 58); 
+}
+
+.task {
+    margin: 10px;
+    padding: 10px;
+    background-color: beige; 
+    border: 2px solid black; 
+    border-radius: 1rem; 
+}
+
+li {
+    display: flex; 
+    justify-content:space-between;
+    align-items: center;
+    list-style: none;
+    background-color: black; 
+    margin: 10px;
+    padding: 12px;
+    color: white;
+    border-radius: 1rem; 
+    width: auto; 
+}
+
+
+ul#list li button {
+    background-color: red; 
+    color: white; 
+    border: none; 
+    padding: 5px; 
+    border-radius: 3px; 
+    cursor: pointer; 
+    margin-left: 10px; 
+}
+
+
+ul#list li button:hover {
+    background-color: darkred;
+}
+
